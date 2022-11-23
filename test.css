@@ -1,0 +1,80 @@
+
+/* *,*:after,*:before  */
+/* { */
+    /* -webkit-box-sizing: border-box; */
+    /* -moz-box-sizing: border-box; */
+    /* -ms-box-sizing: border-box; */
+    /* box-sizing: border-box; */
+/* } */
+
+body
+{
+    font-family: Arial;
+    margin: 0%;
+    background:#839aa5;
+
+}
+* {box-sizing: border-box;}
+		h2
+		{
+			font-style: verdana;
+			margin: 10px;
+		}
+		h4
+		{
+			margin: 10px;
+			font-style: verdana;
+
+		}
+		div
+		{
+			padding: 10px;
+		}
+		.left
+		{
+			float: left;
+		}
+		
+		.clear_both
+		{
+			float: right;
+		}
+		
+		.w50
+		{
+			width: 50%;
+		}
+		.w100
+		{
+			width: 100%;
+		}
+		.w33
+		{
+			width: 33%;
+		}
+        .w25
+        {
+            width: 25%;
+        }
+
+
+.input_container
+{
+    background-color:rgb(234, 238, 247);
+}
+
+.input_container .input-row
+{
+    margin-bottom: 10px;
+}
+
+
+input:focus{
+    border-color:#2793d2
+}
+
+*::-webkit-input-placeholder
+{
+    opacity: 1;
+    color: #000;
+}
